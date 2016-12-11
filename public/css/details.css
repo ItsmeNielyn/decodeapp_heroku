@@ -1,0 +1,154 @@
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.background1 {
+  width: 100%;
+  height: 700px;
+  background-color:#E8B7AC;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+.thumbnailz img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-style: solid;
+}
+
+.containers {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .containers {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .containers {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .containers {
+    width: 1170px;
+  }
+}
+
+
+.listss{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.listss li{
+  color: black;
+  font-size: 30px;
+}
+@media (min-width: 1200px) {
+  .listss {
+    float: left;
+  }
+  .listss {
+    width: 100%;
+  }
+.slim{
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+}
+
+.buttonss{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 30%;
+}
+@media (min-width: 1200px) {
+  .buttonss {
+    float: left;
+  }
+
+    .buttonss {
+    width: 66.66666667%;
+  }
+ 
+.imagess{
+  position: relative;
+  min-height: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-left: 350px;
+}
+.imagess {
+    width: 40.33333333%;
+}
+@media (min-width: 1200px) {
+.imagess {
+    float: left;
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #7C7C27;
+  border-color: #71713E;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #B3C63B;
+  border-color: #71713E;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-color: black;
+}
+
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.groups {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.itemz {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.itemz:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.itemz:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
